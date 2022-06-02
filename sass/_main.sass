@@ -20,7 +20,18 @@
             width: 100%
     &-content
         &__img
-            width: 560px
+            max-width: 560px
+
+
+@media (max-width: 1024px)
+    .main
+        &-text
+            &__title
+                width: 390px
+                font-size: 50px
+        &-content
+            &__img
+                width: 445px
 
 
 @media (max-width: 768px)
@@ -29,28 +40,24 @@
             flex-direction: column
             text-align: center
         &-text
-            margin-top: 32px
-            &__subtitle
-                margin-top: 16px
+            margin-top: 80px
             &__button
-                margin-top: 45px
+                margin-top: 50px
         &-content
             order: -1
 
 @media (max-width: 425px)
      .main
         &-text
+            margin-top: 40px
             &__title
                 font-size: 32px
-                line-height: 38px
-            &__subtitle
-                font-size: 18px
-                line-height: 21px
-                margin-top: 16px
+                line-height: 32px
             &__button
-                margin-top: 24px
+                margin-top: 40px
         &-content
-            width: 288px
+            &__img
+                width: 285px
 
 
 
