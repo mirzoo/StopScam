@@ -614,26 +614,24 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
 }
 
 .main-text__title {
-  font-weight: 800;
-  font-size: 56px;
-  line-height: 66px;
-  color: #71B2CF;
-}
-
-.main-text__subtitle {
-  max-width: 472px;
-  margin-top: 32px;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  color: #ffffff;
+  max-width: 460px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 64px;
+  color: #FF3B30;
 }
 
 .main-text__button {
-  margin-top: 32px;
+  margin-top: 55px;
+  width: 100%;
+}
+
+.main-content__img {
+  width: 560px;
 }
 
 @media (max-width: 768px) {
